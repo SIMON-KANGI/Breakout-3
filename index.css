@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    background-color: rgb(21, 20, 20);
+}
+header{
+    margin-top:2rem;
+    display:flex;
+    margin-left:2rem;
+    justify-content: space-between;
+}
+header h1{
+    color: white;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+header nav{
+    margin-left:6rem;
+    margin-top:1rem
+}
+nav ul{
+    display:flex;
+}
+ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    color:white;
+    margin:7px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:active{
+    color:rgb(0, 255, 162);
+    border-bottom:solid 3px orangered;
+    
+}
+
+a:hover{
+   border-bottom:solid 3px orangered;
+}
+#login{
+    border:none;
+    background: none;
+    color:white;
+    cursor:pointer;
+}
+#started{
+    background-color: rgb(239, 96, 0);
+    color: white;
+    width:7rem;
+    height:3rem;
+    font-size:0.8rem;
+    margin-left: 19px;
+    cursor: pointer;
+}
+#Home{
+    max-height: 100vh;
+}
+#Home img{
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    }
+    #Home h1{
+        color:rgb(9, 9, 9);
+        font-weight: bolder;
+    }
+    #text{
+        width:100%;
+    transform: translate(3rem, -32rem);
+    display: flex;
+    
+    }
+    #text img{
+        width:100%;
+        height:400px;
+        transform: translate(-13rem, -6rem);
+       
+    }
+    #stext{
+        width:60%;
+    }
+    #explore{
+        margin-top: 2rem;;
+        width:10rem;
+        height:4rem;
+        background-color: rgb(239, 96, 0);
+        color:white;
+        font-size: 1rem;
+        border:none;
+        font-weight: bolder;
+    }
+    #contact{
+        text-align: center;
+        margin-top: 5rem;
+    }
+    #contact h3{
+        color:white;
+        font-weight: bold;
+    }
+    #contact h5{
+color:rgb(250,250,250);
+font-weight: 200;
+    }
+    #email{
+        width:20rem;
+        height:2rem;
+        font-size:1rem;
+        font-weight: bold;
+        text-align:center ;
+        border: none;
+        padding: 0;
+    }
+    .subscribe{
+        padding-top:3rem;
+    }
+    #subscribe{
+        background-color: rgb(239, 96, 0);
+        width:10rem;
+        height:2rem;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1rem;
+        border: none;
+        margin-left: -5px;
+    }
+    
+    
+
