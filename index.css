@@ -128,6 +128,63 @@ font-weight: 200;
         border: none;
         margin-left: -5px;
     }
-    
-    
+    #text-box{
+        background-color: aliceblue;
+        display:flex;
+        justify-content: space-between;
+        width:30%;
+        transform: translate(40rem, -42rem);
+        height: 10rem;
+    }
+    #text-box h5{
+        color: black;
+        padding-top: 50%;
+        padding-left: 2rem;
+    }
+    #about{
+        background-color: white;
+        height: 100%;
+        display:block;
+    }
+    #about-text{
+        padding-top: 10rem;
+        padding-left: 10%;
+        width:50%;
+    }
+    #about img{
+        width:50%;
+        height:50%;
+        padding-top: 10rem;
+    }
+    #first-items{
+        display: flex;
+        width:80%
+    }
+    #sec-items h1,p{
+        text-align: center;
+        }
+    #third-item{
+        font-weight: bolder;
+        padding-left: 3rem;
+        font-size: xx-large;
+    }
+    #span{
+    border-bottom: solid 3px red;
+    }
+    #forth-item{
+        display: flex;
+        width:100%;
+        flex-wrap: nowrap;
+    }
+    .card{
+        width:40rem;
+        padding-left: 3rem;
+        height:30rem;
+    }
+    .card img{
+        width:100%;
+    }
+    .card p{
+        flex-direction:row;
+    }
 
